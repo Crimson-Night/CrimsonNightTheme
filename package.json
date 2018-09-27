@@ -18,5 +18,9 @@
                 "path": "./themes/Crimson Night-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/Crimson-Night/CrimsonNightTheme.git"
     }
 }
