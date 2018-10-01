@@ -2,16 +2,15 @@
 	"name": "Crimson Night",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1f1f20",
-		"editor.foreground": "#d4d4d4",
-		"activityBarBadge.background": "#313f4b",
+		"editor.background": "#272822",
+		"editor.foreground": "#dadada",
+		"activityBarBadge.background": "#44475a",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#ffffff",
-				"background": "#263238ff",
+				"foreground": "#dadada",
 			}
 		},
 		{
@@ -22,7 +21,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#4D516D"
+				"foreground": "#eae9c8"
 			}
 		},
 		{
@@ -32,7 +31,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -60,7 +59,7 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#00CCCC",
+				"foreground": "#73FCD6",
 				"fontStyle": "italic"
 			}
 		},
@@ -70,7 +69,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#F93C92"
+				"foreground": "#FF2F92"
 			}
 		},
 		{
@@ -118,7 +117,8 @@
 				"punctuation.separator.slice.python",
 				"keyword.operator.ternary",
 				"keyword.operator.sizeof",
-				"support.type"
+				"support.type",
+				"keyword.operator.bitwise"
 			],
 			"settings": {
 				"foreground": "#CC0033",
@@ -145,7 +145,7 @@
 				"meta.item-access.arguments"
 			],
 			"settings": {
-				"foreground": "#8F00FF",
+				"foreground": "#FF40FF",
 				"fontStyle": "italic"
 			}
 		},
@@ -161,35 +161,37 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"meta.function-call",
+				"meta.function-call.c",
+				"support.function"
 			],
 			"settings": {
-				"foreground": "#03a7a7"
+				"foreground": "#01ff89"
 			}
 		},
 		{
-			"name": "Block Level Variables",
+			"name": "Built-in Function",
 			"scope": [
-				"meta.block variable.other"
+				"support.function.builtin.python"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#01ff89",
+				"fontStyle": "italic"
 			}
 		},
 		{
-			"name": "Other Variable, String Link",
+			"name": "Member",
 			"scope": [
-				"support.other.variable",
-				"string.other.link"
+				"variable.other.member.c"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#7A81FF"
 			}
 		},
 		{
@@ -198,14 +200,15 @@
 				"constant.numeric",
 			],
 			"settings": {
-				"foreground": "#3ec2ff"
+				"foreground": "#8EFA00"
 			}
 		},
 		{
 			"name": "Parameter",
 			"scope": [
 				"variable.parameter",
-				"variable.language.special.self.python"
+				"variable.language.special.self.python",
+				"variable.language.this.cpp"
 			],
 			"settings": {
 				"foreground": "#FD6A02",
@@ -219,7 +222,7 @@
 				"meta.function-call.c"
 			],
 			"settings": {
-				"foreground": "#ffffff",
+				"foreground": "#dadada",
 			}
 		},
 		{
@@ -276,7 +279,6 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#C3E88D"
 			}
 		},
@@ -292,7 +294,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#4682B4"
+				"foreground": "#E0115F"
 			}
 		},
 		{
@@ -304,13 +306,14 @@
 			}
 		},
 		{
-			"name": "Misc",
+			"name": "Misc, Punctuation",
 			"scope": [
 				"punctuation.separator",
-				"keyword.operator.assignment",	
+				"keyword.operator.assignment",
+				"punctuation.terminator.statement.c"
 			],
 			"settings": {
-				"foreground": "#B9BBB6",
+				"foreground": "#eae0c8",
 			}
 		},
 		{
