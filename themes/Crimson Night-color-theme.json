@@ -2,8 +2,8 @@
 	"name": "Crimson Night",
 	"type": "dark",
 	"colors": {
-		// "editor.background": "#212930",
-		"editor.background": "#272822",
+		"editor.background": "#0e1216",
+		//"editor.background": "#272822",
 		"editor.foreground": "#eae9c8",
 		"activityBarBadge.background": "#44475a",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -22,8 +22,8 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				// "foreground": "#4D516D"
-				"foreground": "#75715E"
+				"foreground": "#4D516D"
+				// "foreground": "#75715E"
 			}
 		},
 		{
@@ -113,14 +113,26 @@
 			}
 		},
 		{
-			"name": "Greater Operator",
+			"name": "Logical ,Bitwise",
 			"scope": [
 				"keyword.operator.logical",
+				"punctuation.separator.slice.python",
+				"keyword.operator.bitwise",
+				"keyword.operator.assignment.python",
+				"keyword.operator.assignment.c",
+			],
+			"settings": {
+				"foreground": "#CC0033",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Greater Operator",
+			"scope": [
 				"punctuation.separator.slice.python",
 				"keyword.operator.ternary",
 				"keyword.operator.sizeof",
 				"support.type",
-				"keyword.operator.bitwise"
 			],
 			"settings": {
 				"foreground": "#CC0033",
@@ -308,10 +320,9 @@
 			}
 		},
 		{
-			"name": "Misc, Punctuation",
+			"name": "Punctuation",
 			"scope": [
 				"punctuation.separator",
-				"keyword.operator.assignment",
 				"punctuation.terminator.statement.c"
 			],
 			"settings": {
