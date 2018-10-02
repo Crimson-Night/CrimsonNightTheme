@@ -3,14 +3,14 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#272822",
-		"editor.foreground": "#dadada",
+		"editor.foreground": "#eae9c8",
 		"activityBarBadge.background": "#44475a",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#dadada",
+				"foreground": "#eae9c8",
 			}
 		},
 		{
@@ -21,7 +21,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#eae9c8"
+				"foreground": "#75715E"
 			}
 		},
 		{
@@ -181,7 +181,7 @@
 				"support.function.builtin.python"
 			],
 			"settings": {
-				"foreground": "#01ff89",
+				"foreground": "#6feef7",
 				"fontStyle": "italic"
 			}
 		},
@@ -602,7 +602,7 @@
 				"text.html.markdown meta.dummy.line-break"
 			],
 			"settings": {
-				"foreground": ""
+				"foreground": "#6feef7"
 			}
 		},
 		{
