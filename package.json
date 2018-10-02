@@ -2,7 +2,7 @@
     "name": "crimson-night",
     "displayName": "Crimson Night",
     "description": "Dark color theme",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "avishaycohen",
     "engines": {
         "vscode": "^1.27.0"
