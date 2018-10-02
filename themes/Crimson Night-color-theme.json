@@ -2,6 +2,7 @@
 	"name": "Crimson Night",
 	"type": "dark",
 	"colors": {
+		// "editor.background": "#212930",
 		"editor.background": "#272822",
 		"editor.foreground": "#eae9c8",
 		"activityBarBadge.background": "#44475a",
@@ -21,6 +22,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
+				// "foreground": "#4D516D"
 				"foreground": "#75715E"
 			}
 		},
