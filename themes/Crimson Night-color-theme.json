@@ -121,7 +121,8 @@
 				"keyword.operator.assignment.python",
 				"keyword.operator.assignment.c",
 				"keyword.operator.assignment.compound.python",
-				"keyword.operator.assignment.compound.c"
+				"keyword.operator.assignment.compound.c",
+				"keyword.operator.assignment.compound.bitwise.c"
 			],
 			"settings": {
 				"foreground": "#CC0033",
