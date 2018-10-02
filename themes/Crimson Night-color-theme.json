@@ -2,8 +2,8 @@
 	"name": "Crimson Night",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#0e1216",
-		//"editor.background": "#272822",
+		//"editor.background": "#222222",
+		"editor.background": "#272822",
 		"editor.foreground": "#eae9c8",
 		"activityBarBadge.background": "#44475a",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -22,8 +22,8 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#4D516D"
-				// "foreground": "#75715E"
+				// "foreground": "#4D516D"
+				"foreground": "#4c4f4b"
 			}
 		},
 		{
@@ -120,6 +120,8 @@
 				"keyword.operator.bitwise",
 				"keyword.operator.assignment.python",
 				"keyword.operator.assignment.c",
+				"keyword.operator.assignment.compound.python",
+				"keyword.operator.assignment.compound.c"
 			],
 			"settings": {
 				"foreground": "#CC0033",
@@ -145,12 +147,11 @@
 				"keyword.operator.comparison",
 				"keyword.operator.arithmetic",
 				"keyword.operator.increment",
+				"keyword.operator.decrement",
 				"keyword.operator.c",
-				
 			],
 			"settings": {
 				"foreground": "#FF0000",
-				"fontStyle": "italic"
 			}
 		},
 		{
