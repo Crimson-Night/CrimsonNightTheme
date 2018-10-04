@@ -4,14 +4,14 @@
 	"colors": {
 		//"editor.background": "#222222",
 		"editor.background": "#272822",
-		"editor.foreground": "#eae9c8",
+		"editor.foreground": "#FFFFF0",
 		"activityBarBadge.background": "#44475a",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#eae9c8",
+				"foreground": "#FFFFF0",
 			}
 		},
 		{
@@ -113,11 +113,10 @@
 			}
 		},
 		{
-			"name": "Logical ,Bitwise",
+			"name": "Logical ,Assignment",
 			"scope": [
 				"keyword.operator.logical",
 				"punctuation.separator.slice.python",
-				"keyword.operator.bitwise",
 				"keyword.operator.assignment.python",
 				"keyword.operator.assignment.c",
 				"keyword.operator.assignment.compound.python",
@@ -127,6 +126,16 @@
 			"settings": {
 				"foreground": "#CC0033",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Bitwise",
+			"scope": [
+				"keyword.operator.bitwise",
+
+			],
+			"settings": {
+				"foreground": "#CC0033",
 			}
 		},
 		{
@@ -279,7 +288,7 @@
 				//"punctuation.definition.string.end.python"
 			],		
 			"settings": {
-				"foreground": "#D7BFDC",
+				"foreground": "#FFDF00",
 				"fontStyle": "italic"
 			}
 		},
