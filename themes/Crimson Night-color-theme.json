@@ -108,7 +108,7 @@
 				"constant.other.caps.python"
 			],
 			"settings": {
-				"foreground": "#EB9605",
+				"foreground": "#E34234",
 				"fontStyle": "bold"
 			}
 		},
@@ -161,7 +161,7 @@
 				"keyword.operator.c",
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#BF4F51",
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 				"meta.function-call.c"
 			],
 			"settings": {
-				"foreground": "#dadada",
+				"foreground": "#FFEFD5",
 			}
 		},
 		{
@@ -277,7 +277,7 @@
 				"string.quoted.other.lt-gt.include.c",
 			],
 			"settings": {
-				"foreground": "#FFFC79"
+				"foreground": "#FFFF66"
 			}
 		},
 		{
