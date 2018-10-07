@@ -29,8 +29,7 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
-				"string constant.other.placeholder"
+				"variable"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -251,14 +250,15 @@
 			}
 		},
 		{
-			"name": "Constant, Tag Attribute, Embedded",
+			"name": "Constant, Tag Attribute, Embedded, Placeholder",
 			"scope": [
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"string constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#B200ED"
