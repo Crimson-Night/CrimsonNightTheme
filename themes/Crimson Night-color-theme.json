@@ -164,9 +164,10 @@
 			}
 		},
 		{
-			"name": "Access Operator",
+			"name": "Access Operator, Placeholder",
 			"scope": [
-				"meta.item-access.arguments"
+				"meta.item-access.arguments",
+				"string constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#FF40FF",
@@ -250,15 +251,14 @@
 			}
 		},
 		{
-			"name": "Constant, Tag Attribute, Embedded, Placeholder",
+			"name": "Constant, Tag Attribute, Embedded",
 			"scope": [
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
 				"keyword.other.unit",
-				"keyword.other",
-				"string constant.other.placeholder"
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#B200ED"
