@@ -91,8 +91,6 @@
 				"keyword.control.directive.line",
 				"keyword.control.directive.define",
 				"punctuation.definition.directive",
-				//"meta.preprocessor.macro",
-				//"meta.preprocessor",
 				"keyword.control.directive.include",
 				"meta.preprocessor.include"
 			],
@@ -115,6 +113,7 @@
 			"name": "Logical ,Assignment",
 			"scope": [
 				"keyword.operator.logical",
+				"keyword.operator.ternary",
 				"punctuation.separator.slice.python",
 				"keyword.operator.assignment.python",
 				"keyword.operator.assignment.c",
@@ -141,7 +140,6 @@
 			"name": "Greater Operator",
 			"scope": [
 				"punctuation.separator.slice.python",
-				"keyword.operator.ternary",
 				"keyword.operator.sizeof",
 				"support.type",
 			],
@@ -160,7 +158,7 @@
 				"keyword.operator.c",
 			],
 			"settings": {
-				"foreground": "#BF4F51",
+				"foreground": "#ff003f",
 			}
 		},
 		{
