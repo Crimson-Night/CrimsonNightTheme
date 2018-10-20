@@ -2,19 +2,33 @@
 	"name": "Crimson Night",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#252526",
+		"editor.background": "#1E1E1E",
 		"editor.foreground": "#FFFFF0",
 
 		"editor.selectionBackground": "#333333",
 		"editorCursor.foreground": "#cccccc",
 
-		"activityBar.background": "#252526",
+		"panel.background": "#1A1A1B",
+		"panelTitle.activeForeground": "#DC143C",
+		"panelTitle.inactiveForeground": "#e7e7e799",
+		"panelTitle.activeBorder": "#DC143C",
+
+		"sideBar.background": "#1A1A1B",
+		"sideBarSectionHeader.background": "#2A2B2D",
+	
+		"statusBar.background": "#2A2B2D",
+
+		"activityBar.background": "#2A2B2D",
 		"activityBar.foreground": "#FFEFD5",
 		"activityBarBadge.foreground": "#FFFFFF",
 		"activityBarBadge.background": "#44475a",
-		"sideBarTitle.foreground": "#FFFFFF",
+		"sideBarTitle.foreground": "#DC143C",
 
-		"tab.activeBorder": "#990000",
+		"tab.activeBorder": "#DC143C",
+		"tab.activeBackground": "#1E1E1E",
+		"tab.activeForeground": "#DC143C",
+		"tab.inactiveForeground": "#FFFFFF",
+		"tab.inactiveBackground": "#2A2B2D"
 	},
 	"tokenColors": [
 		{
@@ -82,7 +96,7 @@
 				"storage.type.function.python"
 			],
 			"settings": {
-				"foreground": "#FF2400",
+				"foreground": "#DC143C",
 				"fontStyle": "italic"
 			}
 		},
@@ -97,7 +111,7 @@
 				"meta.preprocessor.include"
 			],
 			"settings": {
-				"foreground": "#990000",
+				"foreground": "#DC143C",
 			}
 		},
 		{
@@ -277,7 +291,7 @@
 				"string.quoted.other.lt-gt.include.c",
 			],
 			"settings": {
-				"foreground": "#FFFF66"
+				"foreground": "#ffcc33"
 			}
 		},
 		{
@@ -288,7 +302,7 @@
 				//"punctuation.definition.string.end.python"
 			],		
 			"settings": {
-				"foreground": "#FFDF00",
+				"foreground": "#ffcc33",
 				"fontStyle": "italic"
 			}
 		},
