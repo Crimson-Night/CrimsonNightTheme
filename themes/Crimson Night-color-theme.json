@@ -39,7 +39,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#4c4f4b"
+				"foreground": "#4C5866"
 			}
 		},
 		{
@@ -211,7 +211,8 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#01ff89"
+				//"foreground": "#01ff89"
+				"foreground": "#98FB98"
 			}
 		},
 		{
@@ -261,7 +262,7 @@
 				"meta.function-call.c"
 			],
 			"settings": {
-				"foreground": "#FFEFD5",
+				"foreground": "#DCDCDC"
 			}
 		},
 		{
