@@ -157,7 +157,6 @@
 			"scope": [
 				"punctuation.separator.slice.python",
 				"keyword.operator.sizeof",
-				"support.type",
 			],
 			"settings": {
 				"foreground": "#CC0033",
@@ -222,6 +221,16 @@
 			],
 			"settings": {
 				"foreground": "#6feef7",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#40ccd1",
 				"fontStyle": "italic"
 			}
 		},
@@ -323,7 +332,7 @@
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class",
 			"scope": [
 				"entity.name",
 				"support.class",
